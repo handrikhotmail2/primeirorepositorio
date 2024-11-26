@@ -11,6 +11,9 @@ app.get('/', (req,res) => {
     res.render('home', { layout: false })
 })
 
+app.post('/usuario/salvar', (req,res) => {
+    //Comandos aqui
+})
 app.listen(3000, () => {
 console.log('Server listening')
 })
